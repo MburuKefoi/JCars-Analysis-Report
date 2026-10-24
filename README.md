@@ -132,8 +132,7 @@ For dates we needed them as one in order to able to even calculate on time deliv
 
 The supplied dataset is a raw flat table.We designed an appropriate data model to enable time intelligence functions and even manipulation of data later in power BI .From the dataset we made six different dimensional tables as discussed above that we connected to one fact table using primary and foreign keys
 Here is a screenshot of how i did it
-<img width="1565" height="1013" alt="Image" src="https://github.com/user-attachments/assets/2cf7f301-dfbf-43dd-9cb7-755ab563c48b" />
-
+<img width="1826" height="1011" alt="Image" src="https://github.com/user-attachments/assets/1bf39844-43c1-45b3-90f4-ead61ec1251f" />
 
 ## Dax Functions
 The dataset wanted us to answer different questions to the management.Below are some of the questions the dataset answered
@@ -190,7 +189,7 @@ CALCULATE(SUMX(Facts_Data,Facts_Data[Clean Revenue Recorded] - Facts_Data[Clean 
 
 ## Executive Dashboard
 
-<img width="1721" height="982" alt="Image" src="https://github.com/user-attachments/assets/96b11833-6977-4045-9733-51fe020fbc48" />
+<img width="1899" height="1019" alt="Image" src="https://github.com/user-attachments/assets/eda0c5c8-b1fc-4924-8830-baa4ffe2becc" />
 
 BUSINESS INSIGHTS AND RECOMMENDATIONS
 J Cars Limited Analysis proved the following
