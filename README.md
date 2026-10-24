@@ -132,7 +132,9 @@ For dates we needed them as one in order to able to even calculate on time deliv
 
 The supplied dataset is a raw flat table.We designed an appropriate data model to enable time intelligence functions and even manipulation of data later in power BI .From the dataset we made six different dimensional tables as discussed above that we connected to one fact table using primary and foreign keys
 Here is a screenshot of how i did it
+
 <img width="1826" height="1011" alt="Image" src="https://github.com/user-attachments/assets/1bf39844-43c1-45b3-90f4-ead61ec1251f" />
+
 
 ## Dax Functions
 The dataset wanted us to answer different questions to the management.Below are some of the questions the dataset answered
@@ -191,7 +193,9 @@ CALCULATE(SUMX(Facts_Data,Facts_Data[Clean Revenue Recorded] - Facts_Data[Clean 
 
 <img width="1899" height="1019" alt="Image" src="https://github.com/user-attachments/assets/eda0c5c8-b1fc-4924-8830-baa4ffe2becc" />
 
+
 BUSINESS INSIGHTS AND RECOMMENDATIONS
+
 J Cars Limited Analysis proved the following
 Nakuru Branch is the most profitable branch with a total revenue of 195.74M and total gross profit of 40M . It had 31 cars delivered and only 9 being cancelled
 Mombasa with a total of 26 cars sold made a profit of 18.88M with only 13 cars being delivered.E250 the luxurious Mercedes was the most car model sold in the branch
